@@ -30,12 +30,22 @@ display: block;
 }
 
 .container { 
-max-width: 1158 px;
-margin: 0 auto;
-padding: 0 15px;
+width: 1158 px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: 156px;
+margin-right: 156px;
+outline: 2px solid red;
 }
 
 /* header */
+
+header {
+padding-bottom: 25.5px;
+padding-top: 25.5px;
+border-bottom: 1px solid #E7E9FC;
+}
+
 .nav-logo-storage {
 color: #2e2f42;
 font-family: "Raleway", sans-serif;
@@ -93,7 +103,9 @@ letter-spacing: 0.02em;
 
 /* Section1 */
 .section_one{
-background-color: #2E2F42;  
+background-color: #2E2F42;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .section_one-title {
@@ -103,6 +115,10 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+max-width: 496px;
+margin-bottom: 48px;
+margin-right: auto;
+margin-left: auto;
 }
 
 .section_one-btn{
@@ -114,6 +130,12 @@ letter-spacing: 0.04em;
 text-transform: capitalize;
 cursor: pointer;
 background:#4D5AE5;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
 }
 
 .section_one-btn:hover,
@@ -123,9 +145,18 @@ background: #404BBF;
 
 /* Section2 */
 
+.section_two{
+padding-top: 120px;
+padding-bottom: 120px; 
+}
+
 .visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
 margin: -1px;
 border: 0;
+padding: 0;
 white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
@@ -138,6 +169,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
  
 .section_two-menu-text{
@@ -150,7 +182,9 @@ letter-spacing: 0.02em;
 /* Section3 */
 
 .section_three{
-background-color: #F4F4FD; 
+background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .section_three-title{
@@ -161,10 +195,18 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .section_three-menu-item{
-background-color: #FFFFFF
+border-radius: 0px 0px 4px 4px;
+background: #FFF;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+padding-bottom: 32px;
+}
+
+.section_three-menu-img{
+margin-bottom: 32px;
 }
 
 .section_three-menu-title{
@@ -174,6 +216,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .section_three-menu-text{
@@ -186,6 +229,11 @@ letter-spacing: 0.02em;
 
 /* Section4 */
 
+.section_four{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .section_four-title{
 color: #2E2F42;
 text-align: center;
@@ -194,6 +242,17 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
+}
+
+.section_four-menu-item{
+border: 1px solid  #E7E9FC;
+padding-bottom: 32px;
+text-align: center;
+}
+
+.section_four-menu-img{
+margin-bottom: 32px;
 }
 
 .section_four-menu-title{
@@ -202,6 +261,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 16px;
 }
 
 .section_four-menu-text{
@@ -215,6 +275,8 @@ letter-spacing: 0.02em;
 
 .footer{
 background-color: #2E2F42;
+padding-top: 101.5px;
+padding-bottom: 100px;
 }
 
 .footer-logo-storage {
@@ -242,4 +304,6 @@ color: #F4F4FD;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
+margin-top: 17.5px;
 }
