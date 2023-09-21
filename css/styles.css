@@ -30,12 +30,9 @@ display: block;
 }
 
 .container { 
-width: 1158 px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: 156px;
-margin-right: 156px;
-outline: 2px solid red;
+width: 1158px;
+padding: 0 15px;   
+margin: 0 auto;  
 }
 
 /* header */
@@ -46,6 +43,16 @@ padding-top: 25.5px;
 border-bottom: 1px solid #E7E9FC;
 }
 
+.header .container{
+display: flex;
+justify-content: space-between;
+}
+
+.nav{
+display: flex;
+gap: 76px;
+}
+
 .nav-logo-storage {
 color: #2e2f42;
 font-family: "Raleway", sans-serif;
@@ -54,6 +61,11 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+
+.nav-menu{
+display: flex;
+gap: 40px;
 }
 
 .nav-logo {
@@ -83,7 +95,12 @@ letter-spacing: 0.02em;
 }
 
 .address{
-font-style: normal
+font-style: normal;
+}
+
+.address-menu{
+display: flex;
+gap: 40px;
 }
 
 .address-item-link{
@@ -129,13 +146,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-transform: capitalize;
 cursor: pointer;
-background:#4D5AE5;
+background-color:#4D5AE5;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-display: inline-flex;
 padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
+margin: 0 auto;
+display: block;
 }
 
 .section_one-btn:hover,
@@ -161,6 +177,15 @@ white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
+}
+
+.section_two-menu{
+display: flex;
+gap: 24px;
+}
+
+.section_two-menu-item{
+width: calc((100% - 24px*3) / 4);
 }
 
 .section_two-menu-title{
@@ -198,11 +223,18 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 
+.section_three-menu{
+display: flex;
+gap: 24px;
+}
+
+
 .section_three-menu-item{
 border-radius: 0px 0px 4px 4px;
 background: #FFF;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 padding-bottom: 32px;
+width: calc((100% - 24px*3) / 4);
 }
 
 .section_three-menu-img{
@@ -245,10 +277,17 @@ text-transform: capitalize;
 margin-bottom: 72px;
 }
 
+.section_four-menu{
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+}
+
 .section_four-menu-item{
-border: 1px solid  #E7E9FC;
+border: 1px solid #E7E9FC;
 padding-bottom: 32px;
 text-align: center;
+width: calc((100% - 24px*2) / 3);
 }
 
 .section_four-menu-img{
