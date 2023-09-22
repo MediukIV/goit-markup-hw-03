@@ -298,8 +298,6 @@ row-gap: 48px;
 }
 
 .section_four-menu-item{
-padding-bottom: 32px;
-text-align: center;
 width: calc((100% - 24px*2) / 3);
 }
 
